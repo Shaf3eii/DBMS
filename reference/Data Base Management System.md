@@ -51,7 +51,7 @@
 		- **Conceptual(Logical) Schema**: The logical design of the database (`e.g`, tables, relationships).
 		- **Internal(Physical) Schema**: How the data is physically stored (`e.g`, files, indexes).
   
-		![Data Model](Pasted%20image%2020250127200637.png)
+		![Data Model](Architecture.png)
 
 ***
 ### 5-Entity-Relation Diagram (ERD)
