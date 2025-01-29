@@ -9,7 +9,7 @@
 		- **DQL (Data Query Language)**: (`e.g`, Select).
 ***
 ## 2-Data types
-![[Pasted image 20250129205046.png]]
+![DataTypes](images/DataTypes.png)
 - The Difference between **`char`** and **`varchar`**:
 	- `char`:
 	    - `char` is a fixed-length character data type.
@@ -137,7 +137,7 @@ SELECT column1, column2, ...FROM table_name WHERE condition;
 ***
 ## 4-SQL Joins
 - Four different types: `INNER JOIN, OUTER JOIN, SELF JOIN, CROSS JOIN`.
-- **SQL Joins** clause use when select records rows from two or more tables from the database. It's depend on certain columns from two table. Matching columns are evaluate and if predicated TRUE return a records set data in specified format.![[Pasted image 20250129212854.png]]
+- **SQL Joins** clause use when select records rows from two or more tables from the database. It's depend on certain columns from two table. Matching columns are evaluate and if predicated TRUE return a records set data in specified format.![JOINS](images/Joins.png)
 - **INNER JOIN:**
 	- Combines data from two tables, ensures that only matching rows from both tables are included.
 	- *Syntax:*
