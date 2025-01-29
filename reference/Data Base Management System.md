@@ -142,6 +142,15 @@
 		- **1NF**: Eliminate duplicate columns and ensure atomic values.
 		- **2NF**: Remove partial dependencies (`e.g`, ensure all non-key attributes depend on the entire primary key).
 		- **3NF**: Remove transitive dependencies (`e.g`, ensure non-key attributes depend only on the primary key).
+    	- **Dependencies:**
+		- It’s a relationship between columns in a database table. It occurs when the value of one column (or a set of columns) uniquely determines the value of another column within the same table.
+		- **Types:**
+			- **Fully Dependent:**
+				- Occurs when a non-key attribute is fully dependent on the entire primary key, rather than just a part of it.
+			- **Partially Dependent:**
+				- Occurs when a non-key attribute is dependent on only a part of the composite primary key, rather than on the entire composite key.
+			- **Transitive Dependent:**
+				- Occurs when a non-key attribute depends on another non-key attribute, rather than directly on the primary key.
 ***
 ### 10-Database Management
 - **Backup and Recovery**:
